@@ -7,7 +7,7 @@ This is an gui example for [InstagramApiSharp](https://github.com/ramtinak/Insta
 Download [FFmpegFa](https://github.com/ramtinak/FFmpegFa/releases) and add it to your project.
 
 ## Releases
-You can find releases in Release Page
+You can find releases in [Release Page](https://github.com/ramtinak/InstaPost/releases/)
 
 ## Screenshots
 ![InstaPost](http://s9.picofile.com/file/8335529176/sc1.PNG)
