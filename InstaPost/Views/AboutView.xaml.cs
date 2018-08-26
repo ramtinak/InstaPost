@@ -59,5 +59,10 @@ namespace InstaPost.Views
         {
             "https://github.com/JamesNK/Newtonsoft.Json".OpenUrl();
         }
+
+        private void FFmpegFaHyperClick(object sender, RoutedEventArgs e)
+        {
+            "https://github.com/ramtinak/FFmpegFa".OpenUrl();
+        }
     }
 }
