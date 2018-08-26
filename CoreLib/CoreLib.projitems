@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ce74fd54-0728-49f4-9a08-1cbba690d5e1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CoreLib</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Helper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\RmtTheme.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\CachedHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExtensionHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\FileSelectorHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\HttpHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ImageHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\SessionHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\SettingsHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ThemeHelper.cs" />
+  </ItemGroup>
+</Project>

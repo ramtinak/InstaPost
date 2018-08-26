@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="InstaPost.Views.PostView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:InstaPost.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="65"/>
+        </Grid.RowDefinitions>
+        <Grid Height="50">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+                <TextBlock Text="Select images or videos:" 
+                       TextWrapping="Wrap" 
+                       VerticalAlignment="Center"
+                       TextAlignment="Center" Margin="10"/>
+            <Button x:Name="SelectFilesButton" Grid.Column="1" Margin="10" Content="Select files" VerticalAlignment="Top" Click="SelectFilesButtonClick" />
+        </Grid>
+        <Separator Grid.Row="1"/>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Caption:" 
+                       TextWrapping="Wrap" 
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       TextAlignment="Center" Margin="10"/>
+            <TextBox x:Name="CaptionText" Grid.Column="1" Margin="10"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" AcceptsReturn="True"/>
+        </Grid>
+        <Separator Grid.Row="3"/>
+        <Grid Grid.Row="4">
+            <Button x:Name="UploadButton" Margin="10" Content="Upload" IsEnabled="False" Click="UploadButtonClick" />
+        </Grid>
+    </Grid>
+</UserControl>

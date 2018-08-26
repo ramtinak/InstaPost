@@ -1,0 +1,35 @@
+﻿<Controls:MetroWindow xmlns:Views="clr-namespace:InstaPost.Views"  x:Class="InstaPost.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
+        xmlns:local="clr-namespace:InstaPost"
+        mc:Ignorable="d"
+        Title="InstaPost"
+        TitleCaps="False"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        GlowBrush="{DynamicResource AccentColorBrush}"
+        FontFamily="{StaticResource DefaultFont}"
+        WindowStartupLocation="CenterScreen"
+        Height="450" Width="640">
+    <Grid>
+        <dragablz:TabablzControl FixedHeaderCount="10">
+            <TabItem Header="Sign in">
+                <Views:SignInView x:Name="SignInView"/>
+            </TabItem>
+            <TabItem Header="Post">
+                <Views:PostView x:Name="PostView" IsEnabled="False"/>
+            </TabItem>
+            <TabItem Header="Settings">
+                <Views:SettingsView x:Name="SettingsView"/>
+
+            </TabItem>
+            <TabItem Header="About">
+                <Views:AboutView x:Name="AboutView"/>
+            </TabItem>
+        </dragablz:TabablzControl>
+    </Grid>
+</Controls:MetroWindow>

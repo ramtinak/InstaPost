@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaPost", "InstaPost\InstaPost.csproj", "{2C4F4AF1-7B7B-4DDF-AA6D-6FDC537D3635}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{C81BF48B-41A7-4C59-9D1D-C6DC9D7247AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{C64E438A-DED7-4D61-8BAD-018D5B49B093}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CoreLib", "CoreLib\CoreLib.shproj", "{CE74FD54-0728-49F4-9A08-1CBBA690D5E1}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CoreLib\CoreLib.projitems*{2c4f4af1-7b7b-4ddf-aa6d-6fdc537d3635}*SharedItemsImports = 4
+		CoreLib\CoreLib.projitems*{ce74fd54-0728-49f4-9a08-1cbba690d5e1}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C4F4AF1-7B7B-4DDF-AA6D-6FDC537D3635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4F4AF1-7B7B-4DDF-AA6D-6FDC537D3635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4F4AF1-7B7B-4DDF-AA6D-6FDC537D3635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4F4AF1-7B7B-4DDF-AA6D-6FDC537D3635}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C4F4AF1-7B7B-4DDF-AA6D-6FDC537D3635} = {C64E438A-DED7-4D61-8BAD-018D5B49B093}
+		{CE74FD54-0728-49F4-9A08-1CBBA690D5E1} = {C81BF48B-41A7-4C59-9D1D-C6DC9D7247AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A21FB18-A1B1-4A48-84BC-950928ADF547}
+	EndGlobalSection
+EndGlobal
