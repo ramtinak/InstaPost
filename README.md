@@ -16,6 +16,10 @@ You can find releases in [Release Page](https://github.com/ramtinak/InstaPost/re
 ![InstaPost](http://s9.picofile.com/file/8335529234/sc4.PNG)
 ![InstaPost](http://s8.picofile.com/file/8335529250/sc5.PNG)
 
+## Requirements
+.NET framework v4.6.1 or newer.
+
+Windows 7, 8/8.1, Windows 10.
 
 ## Open source libraries
 [MahApps.Metro](https://github.com/MahApps/MahApps.Metro)   [Theme]
