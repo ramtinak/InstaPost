@@ -8,12 +8,12 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("InstaPost")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Upload videos, images or album to Instagram site")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Ramtin Jokar")]
 [assembly: AssemblyProduct("InstaPost")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright ©  2018 - Ramtin Jokar")]
+[assembly: AssemblyTrademark("Ramtinak@live.com")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

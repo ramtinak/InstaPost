@@ -16,7 +16,6 @@ namespace InstaPost
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            Unosquare.FFME.MediaElement.FFmpegDirectory = @"I:\Barname nevisi\ABC Projects\RamtinJokar\FFmpeg\v4.0\Shared86";
         }
     }
 }
