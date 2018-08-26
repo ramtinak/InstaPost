@@ -335,10 +335,11 @@ namespace InstaPost.Views
                 LogoutGrid.Visibility = Visibility.Collapsed;
                 LoginGrid.Visibility = Visibility.Visible;
                 MainWindow.Current.PostView.IsEnabled = false;
-
+                Helper.AppName.ChangeAppTitle();
             }
             catch
             {
+                Helper.AppName.ChangeAppTitle();
                 SessionHelper.DeleteCurrentSession();
                 LogoutGrid.Visibility = Visibility.Collapsed;
                 LoginGrid.Visibility = Visibility.Visible;
