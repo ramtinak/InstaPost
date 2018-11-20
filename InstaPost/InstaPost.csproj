@@ -41,8 +41,7 @@
       <HintPath>..\packages\Dragablz.0.0.3.203\lib\net45\Dragablz.dll</HintPath>
     </Reference>
     <Reference Include="FFmpegFa, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\FFmpegFa\FFmpegFa.dll</HintPath>
+      <HintPath>..\packages\FFmpegFa.1.1.0\lib\net40\FFmpegFa.dll</HintPath>
     </Reference>
     <Reference Include="InstagramApiSharp, Version=1.1.5.2, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\InstagramApiSharp.1.1.5.2\lib\net452\InstagramApiSharp.dll</HintPath>
