@@ -158,7 +158,7 @@ namespace InstaPost.Views
         {
             try
             {
-                IResult<ChallengeRequireVerifyMethod> challenge = null;
+                IResult<InstaChallengeRequireVerifyMethod> challenge = null;
                 if (!resend)
                     challenge = await Helper.InstaApi.GetChallengeRequireVerifyMethodAsync();
                 else

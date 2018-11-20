@@ -40,11 +40,12 @@
     <Reference Include="Dragablz, Version=0.0.3.203, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dragablz.0.0.3.203\lib\net45\Dragablz.dll</HintPath>
     </Reference>
-    <Reference Include="FFmpegFa">
-      <HintPath>C:\Users\Ramti\Documents\Visual Studio 2017\Projects\FFmpegFa\FFmpegFa\bin\Debug\FFmpegFa.dll</HintPath>
+    <Reference Include="FFmpegFa, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FFmpegFa\FFmpegFa.dll</HintPath>
     </Reference>
-    <Reference Include="InstagramApiSharp, Version=1.0.3.4, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\InstagramApiSharp.1.0.3.4\lib\net452\InstagramApiSharp.dll</HintPath>
+    <Reference Include="InstagramApiSharp, Version=1.1.5.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\InstagramApiSharp.1.1.5.2\lib\net452\InstagramApiSharp.dll</HintPath>
     </Reference>
     <Reference Include="MahApps.Metro, Version=1.6.5.1, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.1.6.5\lib\net46\MahApps.Metro.dll</HintPath>
