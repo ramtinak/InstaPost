@@ -6,6 +6,11 @@ This is an gui example for [InstagramApiSharp](https://github.com/ramtinak/Insta
 
 Download [FFmpegFa](https://github.com/ramtinak/FFmpegFa/releases) and add it to your project.
 
+#### Important note:
+[InstaPost](https://github.com/ramtinak/InstaPost/) app is just an old example that uses [InstagramApiSharp v1.1.5.2](https://www.nuget.org/packages/InstagramApiSharp/1.1.5.2) which is very old version!!! 
+Some of codes may not working well or even deprecated in new [InstagramApiSharp](https://github.com/ramtinak/InstagramApiSharp) versions.
+I suggest you to update library to the latest [nuget version](https://www.nuget.org/packages/InstagramApiSharp) or use latest [release package](https://github.com/ramtinak/InstagramApiSharp/releases) and update [InstaPost](https://github.com/ramtinak/InstaPost/) codes that is not working or deprecated.
+
 ## Releases
 You can find releases in [Release Page](https://github.com/ramtinak/InstaPost/releases/)
 
